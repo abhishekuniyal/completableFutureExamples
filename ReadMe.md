@@ -49,4 +49,5 @@ Limitations of Future overcomed by CompletableFuture
 	using callback exceptionally()
 	using more generic method handle(req,res)
 	whenComplete : Method whenComplete preserves the result of the triggering stage instead of computing a new one.
+	differnce b/w 3 ways of exception :  https://mincong.io/2020/05/30/exception-handling-in-completable-future/
 	(so whencomplete will print the detail exception while exp.getMessage whereas handle will not)
